@@ -6,7 +6,7 @@ An API for Nike Run Club
 
 ```javascript
 const Nike = require('node-nikerunclub');
-const nike = new LookbookApi({
+const nike = new Nike({
   ux_id: '',
   client_id: ''
 });
