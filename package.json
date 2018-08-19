@@ -1,5 +1,26 @@
 {
+  "name": "node-nikerunclub",
+  "description": "An API for Nike Run Club",
+  "version": "1.0.0",
+  "author": "Jérémie Zarca",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "dependencies": {
     "axios": "^0.18.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzarca01/node-nikerunclub.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jzarca01/node-nikerunclub/issues"
+  },
+  "homepage": "https://github.com/jzarca01/node-nikerunclub#readme"
 }
