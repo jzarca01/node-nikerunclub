@@ -33,5 +33,5 @@ nike.getRecords();
 ### Get achievements by sport type
 
 ```javascript
-nike.getAchievements((sportType = 'RUNNING'));
+nike.getAchievements(sportType = 'RUNNING');
 ```
