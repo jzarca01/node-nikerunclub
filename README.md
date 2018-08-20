@@ -48,3 +48,15 @@ nike.getShoesInfos((includeDeleted = true));
 nike.getActivities(time = new Date().valueOf(), limit = 25, includeDeleted = true)
 See example.json for result
 ```
+
+### Get your aggregated data
+
+```javascript
+nike.getAggregatedData();
+```
+
+### Get your aggregated data by year
+
+```javascript
+nike.getAggregatedDataByYear((year = '2018'));
+```
