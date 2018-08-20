@@ -35,3 +35,9 @@ nike.getRecords();
 ```javascript
 nike.getAchievements(sportType = 'RUNNING');
 ```
+
+### Get shoes infos
+
+```javascript
+nike.getShoesInfos(includeDeleted = true);
+```
