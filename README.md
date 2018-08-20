@@ -33,11 +33,18 @@ nike.getRecords();
 ### Get achievements by sport type
 
 ```javascript
-nike.getAchievements(sportType = 'RUNNING');
+nike.getAchievements((sportType = 'RUNNING'));
 ```
 
 ### Get shoes infos
 
 ```javascript
-nike.getShoesInfos(includeDeleted = true);
+nike.getShoesInfos((includeDeleted = true));
+```
+
+### Get your activity history
+
+```javascript
+nike.getActivities(time = new Date().valueOf(), limit = 25, includeDeleted = true)
+See example.json for result
 ```
