@@ -60,5 +60,7 @@ typings/
 # next.js build output
 .next
 
+.vscode
+.DS_Store
 config/config.json
 test.js

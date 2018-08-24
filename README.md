@@ -42,11 +42,17 @@ nike.getAchievements((sportType = 'RUNNING'));
 nike.getShoesInfos((includeDeleted = true));
 ```
 
-### Get your activity history
+### Get history of all activities
 
 ```javascript
 nike.getActivities(time = new Date().valueOf(), limit = 25, includeDeleted = true)
 See example.json for result
+```
+
+### Get details of activity by id
+
+```javascript
+nike.getActivity(activityId, metrics = 'ALL')
 ```
 
 ### Get your aggregated data
