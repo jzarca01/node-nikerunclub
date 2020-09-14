@@ -16,6 +16,14 @@ const nike = new Nike({
 
 ```javascript
 nike.signIn(email, password);
+
+/* Since it relies on Puppeteer, you need a GUI environment for now */
+```
+
+### Get access token from refresh token
+
+```javascript
+nike.getAccessTokenFromRefreshToken(refreshToken);
 ```
 
 ### Get user Info
