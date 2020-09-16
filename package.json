@@ -1,7 +1,7 @@
 {
   "name": "node-nikerunclub",
   "description": "An API for Nike Run Club",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Jérémie Zarca",
   "main": "index.js",
   "directories": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
+    "dayjs": "^1.8.35",
     "puppeteer": "^5.3.0",
     "qs": "^6.5.2"
   },

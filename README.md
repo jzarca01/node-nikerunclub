@@ -17,7 +17,7 @@ const nike = new Nike({
 ```javascript
 nike.signIn(email, password);
 
-/* Since it relies on Puppeteer, you need a GUI environment for now */
+/* Since it relies on Puppeteer, you need a GUI environment for now and it might not be a reliable long-term solution */
 ```
 
 ### Get access token from refresh token
@@ -73,4 +73,11 @@ nike.getAggregatedData();
 
 ```javascript
 nike.getAggregatedDataByYear((year = '2018'));
+```
+
+### Output an activity in GPX format
+
+```javascript
+nike.convertToGPX(activityId)
+/* For some reason i cant remove the backslashes (\) so you have to remove them manually along the quotation marks in the beginning and at the end of the output */
 ```
