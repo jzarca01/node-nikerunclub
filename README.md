@@ -79,5 +79,4 @@ nike.getAggregatedDataByYear((year = '2018'));
 
 ```javascript
 nike.convertToGPX(activityId)
-/* For some reason i cant remove the backslashes (\) so you have to remove them manually along the quotation marks in the beginning and at the end of the output */
 ```
